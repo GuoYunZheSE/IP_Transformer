@@ -55,7 +55,7 @@ def regIESettings(op, noLocal=False, ip='', pac=''):
   cmd = 'reg import "%s"' %filePath
   result  = os.popen(cmd)
   if len(result.readlines()) < 2 :
-    print ('--- 老公做完啦，要亲亲要抱抱~~ ---')
+    print ('--- 做完啦~~ ---')
   return
 
 
